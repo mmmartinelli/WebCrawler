@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EA2A900C-A8E1-4BD9-A6CF-66EE7182EBB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCrawler.App", "src\WebCrawler.App\WebCrawler.App.csproj", "{3DE21949-F005-4400-809B-EC0A25453139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCrawler.Selenium", "src\WebCrawler.Selenium\WebCrawler.Selenium.csproj", "{3FC7D072-46DA-44D4-BAE8-F67BCDF8A4BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DE21949-F005-4400-809B-EC0A25453139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE21949-F005-4400-809B-EC0A25453139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE21949-F005-4400-809B-EC0A25453139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE21949-F005-4400-809B-EC0A25453139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC7D072-46DA-44D4-BAE8-F67BCDF8A4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC7D072-46DA-44D4-BAE8-F67BCDF8A4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC7D072-46DA-44D4-BAE8-F67BCDF8A4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC7D072-46DA-44D4-BAE8-F67BCDF8A4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DE21949-F005-4400-809B-EC0A25453139} = {EA2A900C-A8E1-4BD9-A6CF-66EE7182EBB9}
+		{3FC7D072-46DA-44D4-BAE8-F67BCDF8A4BC} = {EA2A900C-A8E1-4BD9-A6CF-66EE7182EBB9}
+	EndGlobalSection
+EndGlobal
