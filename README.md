@@ -8,6 +8,9 @@ Projeto da aplicação que consumirá um serviço web crawler para realizar a ra
 
 Neste caso, a raspagem dos dados será realizada na páginas do [Top 250 Filmes IMDb](https://www.imdb.com/chart/top/).
 
+## WebCrawler.Domain
+Projeto da aplicação que contém as classes e interfaces que serão utilizadas pelo projeto `WebCrawler.App`.
+
 ## WebCrawler.Selenium
 Projeto que contém o serviço web crawler que utiliza a ferramenta Selenium para coleta dos dados e ações na página.
 
